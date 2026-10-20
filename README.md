@@ -98,6 +98,22 @@
 
 `AI Coding` `评测设计` `Docker` `pytest` `变异测试`
 
+## 🧷 我在维护的小项目
+
+都是把工作里踩过的坑做成能跑的最小实现，不是玩具 demo：
+
+| 仓库 | 一句话 | 验证方式 |
+| --- | --- | --- |
+| [metric-dictionary-template](https://github.com/Yang-SVVG/metric-dictionary-template) | 指标字典模板 + 校验器 + 质量报告 + Excel 导出（字段/编码/状态/来源一致性/180 天未复核/血缘） | `pytest` 17 passed；示例 12 指标 0 error；反例集稳定跑出 8 error |
+| [sql-slow-query-lab](https://github.com/Yang-SVVG/sql-slow-query-lab) | 三个可复现的慢查询实验：全表扫描、相关子查询、预聚合，附执行计划对照 | 30 万订单实测 13.3 ms→1.1 ms、3.64 s→1.5 ms、101 ms→125 µs |
+| [ai-coding-question-kit](https://github.com/Yang-SVVG/ai-coding-question-kit) | AI Coding 出题工具包：题面 + 隐藏测试 + 独立 oracle + 变异测试 + 评分器 | `pytest` 68 passed；7 个定向变异全部被杀死（kill rate 100%） |
+
+## 🎯 我在关注的方向
+
+- **指标口径治理与数据质量**：怎么让同一指标在全公司只有一个定义、一个 SQL。
+- **量化因子研究**：在拥挤的信号族里找还没被挖干净的角落。
+- **AI Coding 题目设计与评测**：怎么用变异测试和独立 oracle 判断「这题是真难，还是评分器有漏洞」。
+
 ## 📬 联系我
 
 - 📮 Email：1229071634@qq.com
