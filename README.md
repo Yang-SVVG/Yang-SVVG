@@ -1,4 +1,4 @@
-<h1 align="center">袁洋 · Yuan Yang</h1>
+<h1 align="center"> YY </h1>
 
 <p align="center">
   <b>数据运营 × 软件开发</b> ｜ 指标口径治理 ｜ 量化因子研究
