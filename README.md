@@ -84,12 +84,6 @@
 
 `Python` `Flask / FastAPI` `MySQL` `需求分析` `联调与验收`
 
-### 03 · Alpha 挖掘流水线（兼职 / 研究）　`2024.09 — 至今`
-- 在 WorldQuant BRAIN 做量化因子研究，平台等级 **Master**；自建挖掘流水线（MCP 会话池 + SQLite / ClickHouse + FastAPI 看板 + 定时跑批）。
-- 14 天跑通 2.6 万次仿真，沉淀 2 万条候选因子；提交 Alpha 并转为 ACTIVE（USA / TOP3000 / D1）。
-- 量化平台的「自相关 / 生产相关」门限与同族自封问题，输出拥挤度地板结论；流程由 LLM / Agent 驱动并沉淀为 SOP。
-
-`Quant` `Alpha 研究` `ClickHouse` `任务编排` `LLM / Agent`
 
 ## 🧷 我在维护的小项目
 
