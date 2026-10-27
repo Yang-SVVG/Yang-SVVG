@@ -106,7 +106,7 @@
 | --- | --- | --- |
 | [metric-dictionary-template](https://github.com/Yang-SVVG/metric-dictionary-template) | 指标字典模板 + 校验器 + 质量报告 + Excel 导出（字段/编码/状态/来源一致性/180 天未复核/血缘） | `pytest` 17 passed；示例 12 指标 0 error；反例集稳定跑出 8 error |
 | [sql-slow-query-lab](https://github.com/Yang-SVVG/sql-slow-query-lab) | 三个可复现的慢查询实验：全表扫描、相关子查询、预聚合，附执行计划对照 | 30 万订单实测 13.3 ms→1.1 ms、3.64 s→1.5 ms、101 ms→125 µs |
-| [ai-coding-question-kit](https://github.com/Yang-SVVG/ai-coding-question-kit) | AI Coding 出题工具包：题面 + 隐藏测试 + 独立 oracle + 变异测试 + 评分器 | `pytest` 68 passed；7 个定向变异全部被杀死（kill rate 100%） |
+| [subscription-mrr-bridge](https://github.com/Yang-SVVG/subscription-mrr-bridge) | 订阅制 MRR 变动桥：把月度 MRR 差额拆成新增/复活/升级/降级/流失，SQL 与 Python 双实现逐桶对拍 | `pytest` 13 passed；800 客户 18 个月实测 SQL 与 Python 逐月逐桶一致、桥恒等式与月度连续两条检查通过 |
 
 ## 🎯 我在关注的方向
 
